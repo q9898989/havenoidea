@@ -1,5 +1,5 @@
 from flask import Flask
-from rhino3dm import *
+import rhino3dm
 
 app = Flask(__name__)
 
