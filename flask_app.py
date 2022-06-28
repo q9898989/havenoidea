@@ -6,7 +6,7 @@ import ghhops_server as hs
 app = Flask(__name__)
 hops = hs.Hops(app)
 
-@app.route('/')
+@app.route('/hello')
 def hello():
     return 'Hello hello hello, Welcome'
 
