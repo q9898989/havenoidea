@@ -6,6 +6,10 @@ import ghhops_server as hs
 app = Flask(__name__)
 hops = hs.Hops(app)
 
+@app.route('/')
+def hello():
+    return 'Hello hello hello, Welcome'
+
 
 @hops.component(
     #http://127.0.0.1:5000/cal_angles
